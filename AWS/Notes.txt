@@ -359,7 +359,54 @@ Day 39: 10th Feb. 2026
 		
 		
 		32 --> 
+
+
+#######################
+Day 39: 10th Feb. 2026
+#######################			
+
+
+	Demo on VPC :
 		
+		- Create Architecture Diagram ::
+		
+		
+	
+		- Create VPC with Public Subnet & Private Subnet 
+		
+		- Deploy the Applications 
+		
+			- 3-Tier Applications
+			
+		- High Availability & Load Balancing 
+
+			- Auto-Scaling Group(ASG)
+			- Elastic Application Load Balancer 
+			
+			
+		- VPC : pl-0212-vpc						# 10.1.0.0/16
+		- IGW : pl-0212-vpc-igw
+		- subnet1 : pl-0212-vpc-public-sn		# 10.1.0.0/24
+		- subnet1- route-table : pl-0212-vpc-public-sn-rtb 
+		
+		- Create EC2 Instance using this VPC  pl-0212-vpc-WebServer	
+		
+		
+		- subnet2 : pl-0212-vpc-private-sn		# 10.1.1.0/24
+		- subnet2-route-table : pl-0212-vpc-private-sn-rtb 
+		
+		- Create EC2 Instance using this VPC  pl-0212-vpc-AppServer
+		
+
+Next :::
+		
+		- High Availability & Load Balancing 
+
+			- Auto-Scaling Group(ASG)
+			- Elastic Application Load Balancer 
+
+		- AWS Security 
+	
 		5 --> 
 		
 		
